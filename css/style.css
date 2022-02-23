@@ -1,0 +1,365 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,a,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    text-decoration: none;
+}
+*{
+    box-sizing: border-box;
+}
+ hr{
+    display: block;
+    border-width: 1px;
+ }
+ol, ul {
+    list-style: none;
+}
+body{
+    font-family: 'Gilroy-Bold', sans-serif;
+    overflow: scroll;
+    
+}
+.container{
+    margin: 0 auto;
+    max-width: 975px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.header{
+    width: 100%;
+    z-index: 111; 
+}
+.nav{
+    font-size: 18px;
+    line-height: 22px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #828282;
+    
+}
+.nav__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.nav__link{
+    color: #828282;
+    text-decoration: none;
+}
+.nav__link:hover{
+    color: #070707;
+}
+
+
+.intro{
+    padding-bottom: 100px;
+  
+}
+
+.intro__inner{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.intro__name{
+    font-size: 47px;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.intro__work{
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 18px;
+    line-height: 22px;  
+}
+.intro__lg{
+    display: flex;
+    transform: rotate(-90deg);
+    color: #828282;
+}
+.ru:hover{
+    color: #070707;
+    cursor: pointer;
+}
+.eng:hover{
+    color: #070707;
+    cursor: pointer;
+}
+.ru{
+    border-right:2px solid black;
+    padding-right: 3px;
+}
+.eng{
+    padding-left: 3px;
+}
+.intro__photo{ 
+    margin-top: 52px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+.intro--bg{
+    max-width: 100%;
+    height: auto;
+}
+.about{
+    padding-top: 100px;
+    background-color:#F6F6F6 ;
+    text-align: center;
+    padding-bottom: 100px;
+    
+}
+.about__text{
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 18px;
+
+}
+.suptitle{
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+.skills{
+    padding-top: 91px;
+    padding-bottom: 110px;
+}
+.skills__inf{
+    margin-top: 69px;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+}
+.skills__inner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 83px;
+}
+
+.skills__prog{
+    margin-top: 23px;
+    font-size: 14px;
+    line-height: 17px;
+    color:  #828282;
+    text-align: center;
+}
+.skills--ic{
+    display: block;
+    margin: 0 auto;
+}
+
+.portfolio{
+    padding-top: 112px;
+    background-color:#F6F6F6;
+    padding-bottom: 96px;
+}
+
+.portfolio__inner{
+    margin-top: 47px;
+}
+.portfolio__item{
+    margin-bottom: 99px;
+}
+.portfolio__work{
+    max-width: 100%;
+    height: auto;
+}
+
+.portfolio__item:last-child{
+    margin-bottom: 0;
+}
+.portfolio__name{
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 44px;
+    text-decoration: underline;
+}
+.contacts{
+    padding-top: 114px;
+    padding-bottom: 141px;
+}
+.contacts__inf{
+    margin-top: 23px;
+    margin-bottom: 19px;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.btn{
+    display: block;
+    background-color: black;
+    padding: 12px 29px;
+    border-radius: 30px;
+    border: 0;
+    color: #fff;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0 auto;
+}
+.contacts__icon{
+    display: flex;
+    justify-content: center;
+    padding-left: 45px;
+}
+.contacts__item{
+    margin-right: 40px;
+    margin-top: 85px;
+    
+}
+.footer{
+   display: block;
+   margin-top: 45px;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    font-family: 'Gilroy-Medium', sans-serif;
+    color: #828282; 
+}
+@media (max-width: 600px){
+    nav{
+        padding-top: 30px;
+    }
+    .intro{
+        padding-bottom: 67px;
+    }
+    .intro__inner{
+
+    }
+    .about{
+        padding-top: 50px;
+        padding-bottom: 55px;
+    }
+    .skills{
+        padding-top: 45px;
+        padding-bottom:70px;
+    }
+    .skills__inner{
+        margin-top: 30px;
+    }
+    .skills__inf{
+        margin-top: 10px;
+    }
+    .portfolio{
+        padding-top:60px;
+    }
+    .skills__icon{
+
+    }
+    .portfolio__item{
+        margin-bottom: 50px;
+    }
+    .contacts{
+        padding-top: 75px;
+        padding-bottom: 83px;
+    }
+}
+@media (max-width: 425px){
+    .nav{
+        display: none;
+    }
+    .intro__inner{
+        flex-direction: column;
+        align-items: baseline;
+        position: relative;
+        
+    }
+    .intro__lg{
+        display: none;
+    }
+    .intro__name{
+         margin-top: 27px;
+         margin-bottom: 23px;
+    }
+        .skills__inner{
+            flex-wrap: wrap;
+           
+         }
+         .skills__item{
+            width: 50%;
+            margin-top: 20px;
+        }
+}
+@media (max-width: 375px){
+    nav{
+       display: none;
+    }
+    .intro{
+       background: none;
+    }
+    .intro__lg{
+        display: none;
+    }
+    .intro__inner{
+        flex-wrap: wrap;
+        
+    }
+    .intro__name{
+        margin-bottom: 23px;
+    }
+    .intro{
+        padding-bottom: 67px;
+    }
+    .about{
+        padding-top: 50px;
+        padding-bottom: 55px;
+    }
+    .skills{
+        padding-top: 45px;
+        padding-bottom:45px;
+    }
+    .skills__inner{
+       flex-wrap: wrap;
+      
+    }
+    .skills__prog:last-child{
+        margin-bottom: 0;
+    }
+    .skills__item{
+    width: 100%;
+    margin-bottom: 45px;
+    }
+    .skills__prog{
+        margin-top: 27px;
+    }
+    .portfolio__work{
+        width: 100%;
+    }
+    
+    
+    .contacts{
+        padding-top: 82px;
+        padding-bottom: 90px;
+    }
+    .btn{
+        padding: 12px 51px;
+    }
+   
+}
+
+
+
+
+
+
+
+
